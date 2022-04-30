@@ -13,7 +13,7 @@ int main()
     while (t--)
     {
         cin >> u >> v >> a >> s;
-        float newV = sqrt((u*u) + 2*(-a)*s);
+        float newV = sqrt((u*u) + 2*(-a)*s);  // -a because talking about deceleration (negative acceleration)
         if(newV > v){
             cout << "No" << endl;
         }
